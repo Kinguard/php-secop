@@ -1,0 +1,12 @@
+Source: php-secop
+Section: php
+Priority: optional
+Maintainer: Tor Krill <tor@openproducts.se>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+Homepage: https://openproducts.com
+
+Package: php-secop
+Architecture: all
+Depends: ${misc:Depends}
+Description: PHP binding for Secop cryptostorage
