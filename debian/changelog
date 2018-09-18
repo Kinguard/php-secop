@@ -1,3 +1,10 @@
+php-secop (0.2) vili; urgency=medium
+
+  * Update socket read to read more than one line.
+    Problem with updated json-lib for secop.
+
+ -- Tor Krill <tor@openproducts.se>  Tue, 18 Sep 2018 15:42:03 +0200
+
 php-secop (0.1) vili; urgency=medium
 
   * Initial version

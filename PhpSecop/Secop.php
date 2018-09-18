@@ -74,7 +74,7 @@ class Secop
 
 		fwrite($this->sock,json_encode($req, JSON_UNESCAPED_UNICODE ));
 
-		$res=json_decode(fgets($this->sock,16384),true);
+		$res=json_decode(fread($this->sock,16384),true);
 
 		return $this->_processreply($res);
 	}
